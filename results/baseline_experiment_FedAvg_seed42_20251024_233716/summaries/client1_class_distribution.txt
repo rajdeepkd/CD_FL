@@ -1,0 +1,21 @@
+Client data summary
+===================
+
+Client: client1
+
+Sub_Label counts (raw before drop):
+  MQTT-DDoS-Connect_flood: 21670
+  Benign: 13844
+  Recon-Port_Scan: 7527
+  Recon-OS_Scan: 1379
+  MQTT-DDoS-Publish_Flood: 441
+  Recon-VulScan: 120
+  ARP_Spoofing: 12
+  MQTT-Malformed_Data: 6
+  TCP_IP_DDoS_ICMP1: 1
+
+TRAIN BEFORE SMOTE: total=36000 | class 0: 11075 (0.308 of split), class 1: 24925 (0.692 of split)
+TRAIN AFTER  SMOTE: total=36000 | class 0: 11075 (0.308 of split), class 1: 24925 (0.692 of split)
+TEST (NO SMOTE)   : total=9000 | class 0: 2769 (0.308 of split), class 1: 6231 (0.692 of split)
+
+(Strategy metrics will be appended after training.)

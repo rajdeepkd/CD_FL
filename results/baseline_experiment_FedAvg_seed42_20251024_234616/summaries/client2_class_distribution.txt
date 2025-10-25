@@ -1,0 +1,35 @@
+Client data summary
+===================
+
+Client: client2
+
+Sub_Label counts (raw before drop):
+  BenignTraffic: 200000
+  DNS_Spoofing: 84099
+  Mirai_GREIP_Flood: 76220
+  Mirai_GREETH_Flood: 73609
+  DDoS-TCP_Flood: 69454
+  Host_Discovery: 67804
+  DDoS-ACK_Fragmentation: 41122
+  VulnerabilityScan: 40673
+  DDoS-HTTP_Flood: 30726
+  PortScan: 22062
+  OS_Scan: 19283
+  DictionaryBruteForce: 7695
+  DDoS-Slowloris: 5979
+  SqlInjection: 5611
+  CommandInjection: 3805
+  XSS: 3324
+  BrowserHijacking: 2949
+  BackdoorMalware: 2553
+  DDoS-UDP_Flood: 1981
+  UploadingAttack: 1309
+  DDoS-ICMP_Fragmentation: 738
+  PingSweep: 178
+  Mirai_UDPPlain_Flood: 171
+
+TRAIN BEFORE SMOTE: total=609076 | class 0: 160000 (0.263 of split), class 1: 449076 (0.737 of split)
+TRAIN AFTER  SMOTE: total=898152 | class 0: 449076 (0.500 of split), class 1: 449076 (0.500 of split)
+TEST (NO SMOTE)   : total=152269 | class 0: 40000 (0.263 of split), class 1: 112269 (0.737 of split)
+
+(Strategy metrics will be appended after training.)

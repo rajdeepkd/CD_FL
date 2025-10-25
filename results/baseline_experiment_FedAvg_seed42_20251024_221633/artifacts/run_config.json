@@ -1,0 +1,48 @@
+{
+  "experiment": {
+    "name": "baseline_experiment",
+    "seed": 42,
+    "device": "cpu",
+    "rounds": 5,
+    "local_epochs": 2,
+    "batch_size": 128,
+    "lr": 0.001,
+    "optimizer": "adam",
+    "strategies": [
+      "FedAvg",
+      "FedProx",
+      "PersonalizedHead"
+    ],
+    "strategy": "FedAvg",
+    "equalize_samples": true,
+    "reweight_clients": false,
+    "fedprox_mu": 0.001
+  },
+  "data": {
+    "raw_dir": "data/raw_data",
+    "processed_dir": "data/processed",
+    "label_column": null,
+    "numeric_features": [],
+    "categorical_features": []
+  },
+  "preprocess": {
+    "impute_strategy": "median",
+    "scaler": "standard",
+    "onehot_max_cardinality": 16,
+    "use_smote": true,
+    "smote_minority_ratio_threshold": 0.3
+  },
+  "logging": {
+    "log_level": "INFO"
+  },
+  "evaluation": {
+    "fairness_metrics": true,
+    "save_plots": true
+  },
+  "output": {
+    "results_dir": "results",
+    "logs_dir": "results/logs",
+    "summaries_dir": "results/summaries",
+    "artifacts_dir": "results/artifacts"
+  }
+}

@@ -1,0 +1,19 @@
+Client data summary
+===================
+
+Client: client4
+
+Sub_Label counts (raw before drop):
+  Okiru: 87244
+  BenignTraffic: 50000
+  DDoS: 23100
+  PartOfAHorizontalPortScan: 4466
+  C&C-HeartBeat: 103
+  C&C: 51
+  Attack: 36
+
+TRAIN BEFORE SMOTE: total=132000 | class 0: 40000 (0.303 of split), class 1: 92000 (0.697 of split)
+TRAIN AFTER  SMOTE: total=132000 | class 0: 40000 (0.303 of split), class 1: 92000 (0.697 of split)
+TEST (NO SMOTE)   : total=33000 | class 0: 10000 (0.303 of split), class 1: 23000 (0.697 of split)
+
+(Strategy metrics will be appended after training.)

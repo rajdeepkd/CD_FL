@@ -1,0 +1,23 @@
+Client data summary
+===================
+
+Client: client3
+
+Sub_Label counts (raw before drop):
+  password_attack: 68781
+  BenignTraffic: 50000
+  DDoS_HTTP_Flood: 29916
+  Port_scanning: 7811
+  SQLInjection: 3182
+  Vulnerability_Scan: 2022
+  XSS: 1258
+  Backdoor_Attack: 895
+  RansomwareAttack: 832
+  OS_fingerprinting: 158
+  MITM: 145
+
+TRAIN BEFORE SMOTE: total=132000 | class 0: 40000 (0.303 of split), class 1: 92000 (0.697 of split)
+TRAIN AFTER  SMOTE: total=132000 | class 0: 40000 (0.303 of split), class 1: 92000 (0.697 of split)
+TEST (NO SMOTE)   : total=33000 | class 0: 10000 (0.303 of split), class 1: 23000 (0.697 of split)
+
+(Strategy metrics will be appended after training.)

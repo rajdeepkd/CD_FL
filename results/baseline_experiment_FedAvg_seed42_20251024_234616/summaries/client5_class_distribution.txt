@@ -1,0 +1,19 @@
+Client data summary
+===================
+
+Client: client5
+
+Sub_Label counts (raw before drop):
+  bashlite_mal_spread_all: 112181
+  Mirai_BenignTraffic: 27757
+  torii_BenignTraffic: 22243
+  Mirai_spread: 2445
+  bashlite_mal_CC_all: 266
+  Mirai_CC: 105
+  torii_mal_all: 3
+
+TRAIN BEFORE SMOTE: total=132000 | class 0: 40000 (0.303 of split), class 1: 92000 (0.697 of split)
+TRAIN AFTER  SMOTE: total=132000 | class 0: 40000 (0.303 of split), class 1: 92000 (0.697 of split)
+TEST (NO SMOTE)   : total=33000 | class 0: 10000 (0.303 of split), class 1: 23000 (0.697 of split)
+
+(Strategy metrics will be appended after training.)
